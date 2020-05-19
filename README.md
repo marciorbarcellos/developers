@@ -1,6 +1,6 @@
-# [Home Page Developers](https://github.com/marciorbarcellos/homedevelopers)
+# [Developers](https://github.com/marciorbarcellos/developers)
 
-[HomeDevelopers](https://github.com/marciorbarcellos/homedevelopers)
+[Developers](https://github.com/marciorbarcellos/developers)
 
 * Utilização de elementos HTML5.
 * Utilização de CSS3.
@@ -11,8 +11,9 @@
 
 ## Preview
 
-[![HomeDevelopers Preview](https://github.com/marciorbarcellos/homedevelopers/blob/master/img/homedevelopers.gif)
+[![Developers Preview](https://github.com/marciorbarcellos/homedevelopers/blob/master/img/developers.gif)
 
 
-(https://github.com/marciorbarcellos/homedevelopers)
+(https://github.com/marciorbarcellos/developers)
+
 
