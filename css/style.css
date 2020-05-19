@@ -1,0 +1,135 @@
+body {
+    background-image: url("https://image.freepik.com/fotos-gratis/fundo-de-tecnologia-abstrata-de-codigo-de-programacao_34663-30.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main {
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-top: 10px;
+    height: 530px;
+    width: 315px;
+    padding-left: 60px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    background: rgba(116, 113, 82, 0.705);
+}
+
+.logo {
+    text-align: center;
+    margin-left: -200px;
+    padding-left: -400px;
+    margin-top: 30px;
+}
+
+.Dev {
+    margin-left: -50px;
+}
+
+.DevName {
+    animation: rotate 2s;
+    padding-left: 30px;
+    font-style: italic;
+    font-size: 30px;
+    display: block;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.ttc {
+    margin-left: 0px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-left: 200px;
+    padding-bottom: 5px;
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 7px;
+    font-weight: 600;
+}
+
+@keyframes rotate {
+    0%{
+        margin-top: 25px;
+        color: #ffc500;
+    }
+    50%{
+        margin-top: 50px;
+        color: #ffc500;
+        transform: rotateY(90deg);
+    }
+    100%{
+        color: #ffc500;
+        transform: rotateY(180deg);
+    }
+}
+
+@keyframes text {
+    0%{
+        margin-left: -150px;
+    }
+    25%{
+        margin-left: -100px;
+    }
+    50%{
+        margin-left: -50px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+}
+
+h2 {
+    margin: 1rem;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font: outline;
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+.efect {
+    padding: 20px;
+    border: none;
+    color:#ffffff;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.efect-1 {
+    background-color: #28348A;
+}
+
+.efect-1::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 64px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    transition: all 2s ease;
+}
+
+.efect-1:hover::before {
+    width: 100%;
+}
+
+.exchange {
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+

@@ -1,62 +1,108 @@
+window.addEventListener('load', clicked);
 
-function clicou(){
-document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
+function load(){
+    clicked();
+}
+
+function clicked(){
+document.getElementById("grateful").innerHTML = "Welcome !";
     //console.log(document.getElementById("agradecimento"));
-    //alert("Obrigado por clicar");
 }
 
-function redirecionar(){
-    window.open("https://globallabs.ventures/");  // nova janela
-    // window.location.href = "https://globallabs.ventures/";  // mesma janela
-}
-
-function trocar(elemento){
-    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
-    elemento.innerHTML = "Obrigado por passar o mouse";
+function exchange1(elemento){
+    //document.getElementById("mousemove").innerHTML = "Thanks for hovering!";
+    elemento.innerHTML = "We are what you're looking for";
     //alert("trocar texto");
 }
 
-function voltar(elemento){
+function back1(elemento){
     //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
-    elemento.innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "About us";
 }
 
-function load(){
-    alert("Página carregada!")
+function exchange2(elemento){
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse!";
+    elemento.innerHTML = "Be part of our team";
+    //alert("trocar texto");
 }
 
-function funcaoChange(elemento){
-    console.log(elemento.value)
+function back2(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Carrers";
 }
 
+function exchange3(elemento){
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse!";
+    elemento.innerHTML = "The best content on the web";
+    //alert("trocar texto");
+}
 
+function back3(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Blog";
+}
+
+function exchange4(elemento){
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse!";
+    elemento.innerHTML = "Send your message";
+    //alert("trocar texto");
+}
+
+function back4(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Contact us";
+}
+
+function exchange5(elemento){
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse!";
+    elemento.innerHTML = "Doubts? Find out more! ";
+    //alert("trocar texto");
+}
+
+function back5(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Questions";
+}
 
 
 
 /*
-function soma(n1, n2){
-    return n1 + n2;
+function fChange(element){
+    console.log(element.value)
 }
+*/
 
-var validar =0;
-function validaIdade(idade){
-    if (idade>=18){
-        validar = true;
-    }else{
-        validar = false;
-    }
-    return validar;
+/*
+function redirect(){
+    window.open("https://digitalinnovation.one/");  // new window
+    // window.location.href = "https://digitalinnovation.one/";  // same window
 }
-
-var idade = prompt("Qual sua idade");
-validaIdade(idade)
-console.log(validar);
-//alert(soma(5, 10));
 */
 
 /*
 var d = Date();
 alert(d);
+*/
+
+/*
+function sum(n1, n2){
+    return n1 + n2;
+}
+
+var valid =0;
+function validOld(old){
+    if (old>=18){
+        valid = true;
+    }else{
+        valid = false;
+    }
+    return valid;
+}
+
+var old = prompt("How old are you?");
+validOld(old)
+console.log(valid);
+//alert(soma(5, 10));
 */
 
 /*
@@ -76,27 +122,18 @@ while(count <=5){
 */
 
 /*
-var idade = prompt("Qual sua idade ?");
-if (idade >= 18){
-    alert("maior de idade");
-}else{
-    alert("menor de idade");
-};
+var fruit = [{nome:"apple", color:"red"}, {name:"grape", color:"purple"}]
+console.log(fruit);
+alert(frutas[1].name);
 */
 
 /*
-var frutas = [{nome:"maça", cor:"vermelha"}, {nome:"uva", cor:"roxa"}]
-console.log(frutas);
-alert(frutas[1].nome);
+var fruit = {nome:"apple", cor:"red"}
+console.log(fruit.name);
+alert(fruit.color);
 */
 
-/*
-var fruta = {nome:"maça", cor:"vermelha"}
-console.log(fruta.nome);
-alert(fruta.cor);
-*/
-
-//var lista = ["maça", "pera", "laranja"];
+//var lista = ["apple", "pear", "orange"];
 //lista.push("uva");
 //lista.push("");
 
@@ -104,15 +141,16 @@ alert(fruta.cor);
 //console.log(lista.toString());
 //console.log(lista.join(" - "));
 
-
-//var nome="Marcio Barcellos";
+//var nome="Name";
 //var n1=5;
 //var n2=3;
-//var frase="Japão é o melhor time do mundo";
-//alert(nome + " tem "+idade);
+//var frase="The best teame of the world";
+//alert(name + " tem "+old);
 //alert(n1 * n2);
-//console.log(nome);
-//console.log(idade+idade2);
+//console.log(name);
+//console.log(old+old2);
 //console.log(frase.toUpperCase());
-//alert(frase.replace("Japão", "Brasil"))
+//alert(frase.replace("Country", "Brasil"))
+
+
 

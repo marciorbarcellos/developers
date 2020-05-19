@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
     <head>
-        <title>JavaScript</title>
+        <title>Developers</title>
         <meta charset="utf-8">
         <script type="text/javascript" src="js/mains.js"></script>
+        <link href="css/style.css" rel="stylesheet">
     </head>
-    <body onload="load()">
-        <button type="button" onclick="clicou()">Clique aqui</button>
-        <p id="agradecimento" onclick="redirecionar()"></p>
-        <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui()</p>
-        <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui()</p>
-        <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui()</p>
-        <select onchange="funcaoChange(this)">
-            <option value="1">Valor 1</option>
-            <option value="2">Valor 2</option>
-            <option value="3">Valor 3</option>
-        </select>
 
+    <body onload="load()">
+        <div class="main">
+            <div class="logo">
+                <div class="Dev">
+                    <button type="button" class="efect efect-1" onload="clicked()">{/}</button>
+                </div>
+                <div class="DevName">
+                    <h2<b>Developers</b></h2>
+                </div>
+                <div class="ttc">
+                    <h2><b>It's time to CODE</b></h2>
+                </div>
+            </div>
+            <div class="exchange">
+                <p onmouseover="exchange1(this)" onmouseout="back1(this)">About Us</p>
+                <p onmouseover="exchange2(this)" onmouseout="back2(this)">Careers</p>
+                <p onmouseover="exchange3(this)" onmouseout="back3(this)">Blog</p>
+                <p onmouseover="exchange4(this)" onmouseout="back4(this)">Contact us</p>
+                <p onmouseover="exchange5(this)" onmouseout="back5(this)">Questions</p>
+            </div>
+        </div>
     </body>
+
 </html>
 
