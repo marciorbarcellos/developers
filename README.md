@@ -11,7 +11,7 @@
 
 ## Preview
 
-[![Developers Preview](https://github.com/marciorbarcellos/homedevelopers/blob/master/img/developers.gif)
+[![Developers Preview](https://github.com/marciorbarcellos/developers/blob/master/img/Developers.gif)
 
 
 (https://github.com/marciorbarcellos/developers)
