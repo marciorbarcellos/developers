@@ -1,3 +1,4 @@
+
 body {
     background-image: url("https://image.freepik.com/fotos-gratis/fundo-de-tecnologia-abstrata-de-codigo-de-programacao_34663-30.jpg");
     background-repeat: no-repeat;
@@ -66,21 +67,6 @@ body {
     100%{
         color: #ffc500;
         transform: rotateY(180deg);
-    }
-}
-
-@keyframes text {
-    0%{
-        margin-left: -150px;
-    }
-    25%{
-        margin-left: -100px;
-    }
-    50%{
-        margin-left: -50px;
-    }
-    100%{
-        margin-left: 0px;
     }
 }
 
