@@ -1,6 +1,4 @@
-# [Developers](https://github.com/marciorbarcellos/developers)
-
-[Developers](https://github.com/marciorbarcellos/developers)
+# [Developers - Digital Innovation One](https://github.com/marciorbarcellos/developers)
 
 * Utilização de elementos HTML5
 * Utilização de CSS3
@@ -10,10 +8,7 @@
 * Utilização de funções com JavaScript e CSS
 
 ## Preview
-
-[![Developers Preview](https://github.com/marciorbarcellos/developers/blob/master/img/Developers.gif)
-
+![Developers](https://i.imgur.com/18QNiZA.gif "Developers")
 
 (https://github.com/marciorbarcellos/developers)
-
 
